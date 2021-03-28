@@ -1,0 +1,24 @@
+# задание №2-3-1
+# Составить программу для вычисления среднего арифметического N произвольных вводимых чисел.
+
+sum = 0
+count = 0
+
+while True:
+    inputStr = input()
+    if (inputStr.strip() == 'exit'):
+        break
+    
+    try:
+        inputNumber = int(inputStr)
+        sum += inputNumber
+        count += 1
+    except:
+        print('Введено некорректное число')
+
+
+# проверим количество введенных чисел и посчитаем среднее арифметическое
+if count > 0:
+    print('Среднее арифметическое введенных чисел = ' + str(sum/count))
+else:
+    print('Не введено ни одного числа')
