@@ -14,3 +14,5 @@ for number in range(numbersCount-2):
     n1 = n2
     n2 = nn
     print(nn)
+
+input("Нажмите любую клавишу, чтобы закрыть")

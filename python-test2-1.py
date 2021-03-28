@@ -18,3 +18,5 @@ while True:
 
 print('Сумма положительных чисел: ' + str(sumPositive))
 print('Сумма отрицательных чисел: ' + str(sumNegative))
+
+input("Нажмите любую клавишу, чтобы закрыть")
